@@ -9,7 +9,7 @@ serial('creates subscription for "monthly"', async t => {
   const response = await request.post('http://localhost:3000/', {json: body}).json
   t.true(response.hasOwnProperty('customer'))
   t.true(response.hasOwnProperty('subscription'))
-  t.is(response.subscription.plan.id, 'monthly')
+  t.is(response.subscription.plan.name, 'monthly')
 
   await deleteSubscription(response.subscription.id)
 })
