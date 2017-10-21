@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.test
+node_modules/
+dist
+event.json
+*.zip
+node_modules/
+stripe.md
+.env
+.env.test
+.env.development

@@ -1,0 +1,30 @@
+{
+  "name": "payments-create-subscription",
+  "private": true,
+  "version": "1.0.0",
+  "description": "handle payments",
+  "main": "app.js",
+  "scripts": {
+    "test": "ava --verbose",
+    "start": "nodemon app.js",
+    "deploy": "npm run deploy:development; npm run deply:production",
+    "deploy:development": "up deploy development",
+    "deploy:production": "up deploy production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "envify": "^4.1.0",
+    "express": "^4.16.2",
+    "r2": "git+https://github.com/mikeal/r2.git",
+    "stripe": "^5.1.1",
+    "up": "^1.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "nodemon": "^1.12.1"
+  }
+}

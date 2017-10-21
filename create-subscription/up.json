@@ -1,0 +1,6 @@
+{
+  "name": "payments-create-subscription",
+  "cors": {
+    "enable": true
+  }
+}
