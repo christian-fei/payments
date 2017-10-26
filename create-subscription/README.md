@@ -43,3 +43,13 @@ npm run deploy 
 ```
 npm run stack:apply
 ```
+
+
+## test
+
+configure `.env` with stripe test credentials
+
+```
+env NODE_ENV=development npm start | bunyan
+npm t
+```
