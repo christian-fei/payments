@@ -17,16 +17,16 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "bunyan": "^1.8.12",
-    "dotenv": "^4.0.0",
+    "dotenv": "^5.0.1",
     "envify": "^4.1.0",
-    "express": "^4.16.2",
-    "pino": "^4.8.1",
+    "express": "^4.16.3",
+    "pino": "^4.14.0",
     "r2": "git+https://github.com/mikeal/r2.git",
-    "stripe": "^5.1.1",
-    "up": "^1.0.1"
+    "stripe": "^5.5.0",
+    "up": "^1.0.2"
   },
   "devDependencies": {
-    "ava": "^0.22.0",
-    "nodemon": "^1.12.1"
+    "ava": "^0.25.0",
+    "nodemon": "^1.17.2"
   }
 }
